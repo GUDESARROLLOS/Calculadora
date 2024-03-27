@@ -26,28 +26,12 @@ html {
   img{
     margin-top: -5em;
   }
-
-  h1 {
-    font-weight: 300;
-    margin: 0;
-  }
   
-  /* Gradient text only on Webkit */
-  .warning {
-    background: -webkit-linear-gradient(45deg,  #c97874 10%, #463042 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #8c5059;
-    font-weight: 400;
-    margin: 0 auto 6em;
-    max-width: 9em;
-  }
   
   .calculator {
     font-size: 28px;
     margin: 0 auto;
     width: 10em;
-    
   }
   
 
@@ -111,12 +95,6 @@ html {
     }
   }
   
-  /* Same as above, modified for operators */
-  .ops:focus::after {
-    content: attr(data-ops);
-    margin-left: -210px;
-    width: 420px;
-  }
   
   /* Same as above, modified for result */
   .equals:focus::after {
@@ -196,7 +174,15 @@ html {
     .viewer {
       width: 8.5em;
     }
-    button {
-      margin: 0.5em;
+
+    #display{
+    width:21em;
+    height:4em;
     }
+    button {
+      margin: 0.3em;
+    }
+
+
+
   }
