@@ -8,22 +8,25 @@
 </head>
 <body>
     <img class="img" src="./assets/LOGO_GRIS SIN FONDO.png" alt="LOGO_AZUL">
-    
     <div class="text">
-     <h1>CALCULA TU CUOTA</h1>
+     <h1>CALCULÁ TU CUOTA</h1>
     </div>
-    
-    <div class="logo_media">
-        <img src="./assets/LOGO_GRIS SIN FONDO.png" alt="LOGO_GRIS">
+    <div class="price" >
+    <label >El valor de referencia de la bolsa de cemento es de $10400</label>
     </div>
-    <div class="h1_media">
-        <h1>CALCULA TU CUOTA</h1>
+    <div class="date">
+        <div id="reloj"></div>
+         <div>
+            <script>
+            //<![CDATA[
+            var  today = new Date();
+            var m = today.getMonth()+1;
+            var mes = (m < 10) ? '0' + m : m;
+           document.write(today.getDate(),'/' +mes,'/'+ 24);
+            //]]> 
+            </script></div>   
     </div>
-
-<section> 
-    
-</section>
-    <section class="calculator">
+        <section class="calculator">
         <div id="calculator">
         <input type="text" id="display" disabled>
         <br />
@@ -48,11 +51,33 @@
         
         <br />
         <button id="0">0</button>
-        <button id="10350" class="BC">BC</button>
+        <button id="10400" class="BC">BC</button>
         <button id="=" class="equal operator">=</button>
     </div>
     </section>
+    <section>
+        <div class="total container">
+            <label id="total">El valor de tu cuota este mes equivale a: $ </label>
+        </div>
+        <br><br>
+        <div class="container">
+            <label>*Una vez realizado el pago envíe el comprobante para la acreditación del mismo.<br>
+                   *La cotización indicada es únicamente válida para el día de la fecha y puede ser ajustada en virtud del índice de referencia.<br>
+        
+            </label>
+        </div>
+    </section>
+ <footer class="footer">
+    <section class="footer_copy container">
+    <div class="footer_social">
+        <a href="https://www.instagram.com/grupourbanodesarrollos/" class="footer_icon"><img src="./assets/insta.svg" class="footer_img "></a>
+        <a href="https://www.facebook.com/grupourbanodesarrollos/" class="footer_icon"><img src="./assets/facebook.svg" class="footer_img "></a>
+        <a href="https://acortar.link/WhatsAppGrupoUrbano " class="footer_icon"><img src="./assets/whatsapp.svg" class="footer_img "></a>
     </div>
+    <h3><a href="https://www.gudesarrollos.com.ar/" class="footer_copyright">www.gudesarrollos.com</a></h3>
+    </section>
+</footer>
+    </section>
     <script src="./script/scripts.js"></script>
 </body>
 </html>

@@ -15,43 +15,52 @@ html {
     text-align: center;
   }
 
-  .logo_media{
-    display: none;
-  }
-  
-  .h1_media{
-    display: none;
-  }
-
-  img{
+   img{
     margin-top: -5em;
   }
+
+  .text{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 25px;
+    overflow: hidden;
+ }
   
+.price{
+  color: #9c989c;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: -5em;
+  margin-bottom: 100px;
+}
+
+.date{
+  display: flex;
+  justify-content: center;
+  gap:1em;
+  margin-bottom: 2em;
+  margin-top: -4em;
+  margin-left: -3em;
+  font-size:20px;
+}
+
   .calculator {
-    font-size: 28px;
+    font-size: 28.5px;
     margin: 0 auto;
-    width: 10em;
+    width: 12em;
   }
   
-
   #display {
     color: #fcfcfc;
     background-color: #100a1c;
     float: left;
     text-align: right;
     overflow: hidden;
-    width:21.5em;
+    width:21em;
     height:4em;
     font-weight: 800;
   }
-  
- .text{
-    margin-top: 25px;
-    margin-bottom: 35px;
-    font-size: 25px;
-    overflow: hidden;
- }
-
  .BC{
     background-color: red;
  }
@@ -92,8 +101,6 @@ html {
       }
     }
   }
-  
-  
   /* Same as above, modified for result */
   .equals:focus::after {
     content: attr(data-result);
@@ -101,30 +108,56 @@ html {
     width: 600px;
   }
   
-  
+.total{
+  display: flex;
+  font-size: 20px;
 
 
+}
+
+  .container{
+    width:90%; /*no ocupe el total de la pantalla*/
+    max-width:1200px;/*ancho maximo de 1200px*/
+    margin:0 auto;/*centramos vertialmente*/
+    overflow: hidden;/*escoder lo que sobresalga*/
+    padding:var(--padding-container);
+}
+
+.footer{
+  display: flex;
+}
+  .footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+
+    }
+    .footer_copy{
+      --padding-container:30px 0;
+      text-align: center;
+      color:#fff;
+      }
+    .footer_copy a{
+      text-decoration: none;
+      color: #fcfcfc;
+    }
   
-  /* Animations */
-  
-  /* Values that appear onclick */
-  @keyframes zoom {
-    0% { 
-      transform: scale(.2); 
-      opacity: 1;
-    }
-    
-    70% { 
-      transform: scale(1); 
-    }
-    
-    100% { 
-      opacity: 0;
-    }
+  .footer_copyright{
+      font-weight: 200;
+      margin-top:10px;
   }
   
+  .footer_icons{
+      display: inline-flex;
+      margin-bottom: 10px;
+  }
+  .footer_img{
+      width: 30px;
+  }
   
-  @media (min-width: 420px) {
+  /*@media (min-width: 420px) {
     .calculator {
       width: 12em;
     }
@@ -135,4 +168,4 @@ html {
       margin: 0.3em;
     }
 
-  }
+  }*/
