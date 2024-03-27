@@ -27,7 +27,6 @@ html {
     margin-top: -5em;
   }
   
-  
   .calculator {
     font-size: 28px;
     margin: 0 auto;
@@ -76,7 +75,7 @@ html {
     &:focus {
       outline: 0; 
   
-      /* The value fade-ins that appear */
+    
       &::after {
         animation: zoom 1s;
         animation-iteration-count: 1;
@@ -169,15 +168,16 @@ html {
   
   @media (min-width: 420px) {
     .calculator {
+      font-size: 20px;
       width: 12em;
     }
     .viewer {
       width: 8.5em;
     }
-
     #display{
     width:21em;
     height:4em;
+
     }
     button {
       margin: 0.3em;
