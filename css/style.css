@@ -40,10 +40,9 @@ html {
     float: left;
     text-align: right;
     overflow: hidden;
-    width:24em;
+    width:21.5em;
     height:4em;
     font-weight: 800;
-    font-size: 0.48em;
   }
   
  .text{
@@ -124,65 +123,16 @@ html {
     }
   }
   
-  /* Division by zero animation */
-  @keyframes broken {
-    0% {
-      transform: translate3d(0,0,0);
-      opacity: 1;
-    }
-  
-    5% {
-      transform: rotate(5deg);
-    }
-  
-    15% {
-      transform: rotate(-5deg);
-    }
-  
-    20% {
-      transform: rotate(5deg);
-    }
-  
-    25% {
-      transform: rotate(-5deg);
-    }
-  
-    50% {
-      transform: rotate(45deg);
-    }
-  
-    70% {
-      transform: translate3d(0,2000px,0);
-      opacity: 1;
-    }
-  
-    75% {
-      opacity: 0;
-    }
-  
-    100% {
-      transform: translate3d(0,-2000px,0);
-    }
-  }
-  
   
   @media (min-width: 420px) {
     .calculator {
-      font-size: 20px;
       width: 12em;
     }
     .viewer {
       width: 8.5em;
     }
-    #display{
-    width:21em;
-    height:4em;
-
-    }
     button {
       margin: 0.3em;
     }
-
-
 
   }
