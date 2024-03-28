@@ -15,7 +15,6 @@ buttons.forEach((btn) => {
         } else { 
              display.value += btn.id
         }})  
-    
 })
     
 function startTime(){
