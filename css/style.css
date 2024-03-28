@@ -108,9 +108,12 @@ html {
     width: 600px;
   }
   
-.total{
+.container .total{
   display: flex;
   font-size: 20px;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-style: italic;
 
 
 }

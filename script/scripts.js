@@ -6,16 +6,18 @@ const buttons= document.querySelectorAll("button");
 buttons.forEach((btn) => {
     btn.addEventListener("click", () =>{
         if(btn.id === "="){
-            display.value = eval(display.value);
+        document.getElementById("total").innerHTML = display.value = eval(display.value);
+
         } else if (btn.id === "ac"){
-            display.value = "";
+            document.getElementById("total").innerHTML = display.value = "";
         } else if (btn.id == "de"){
             display.value = display.value.slice(0, -1);
-        } else {
-            display.value += btn.id
-        }})     
+        } else { 
+             display.value += btn.id
+        }})  
+    
 })
-
+    
 function startTime(){
     today=new Date();
     h=today.getHours();
