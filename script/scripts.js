@@ -6,10 +6,10 @@ const buttons= document.querySelectorAll("button");
 buttons.forEach((btn) => {
     btn.addEventListener("click", () =>{
         if(btn.id === "="){
-        document.getElementById("total").innerHTML = display.value = eval(display.value);
+        document.getElementById("total").innerHTML =  display.value = eval(display.value) ;
 
         } else if (btn.id === "ac"){
-            document.getElementById("total").innerHTML = display.value = "";
+            document.getElementById("total").innerHTML =  display.value = "";
         } else if (btn.id == "de"){
             display.value = display.value.slice(0, -1);
         } else { 
