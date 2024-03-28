@@ -109,13 +109,11 @@ html {
   }
   
 .container .total{
-  display: flex;
+  display: inline-block;
   font-size: 20px;
   font-weight: 600;
   color: #fcfcfc;
   font-style: italic;
-
-
 }
 
   .container{
@@ -136,7 +134,6 @@ html {
     align-items: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
-
     }
     .footer_copy{
       --padding-container:30px 0;
@@ -148,20 +145,20 @@ html {
       color: #fcfcfc;
     }
   
-  .footer_copyright{
+    .footer_copyright{
       font-weight: 200;
       margin-top:10px;
-  }
+    }
   
-  .footer_icons{
+    .footer_icons{
       display: inline-flex;
       margin-bottom: 10px;
-  }
-  .footer_img{
+    }
+    .footer_img{
       width: 30px;
-  }
+    }
   
-  /*@media (min-width: 420px) {
+ /* @media (min-width: 420px) {
     .calculator {
       width: 12em;
     }
