@@ -62,8 +62,9 @@ html {
     font-weight: 800;
   }
  .BC{
-    background-color: rgb(25, 0, 255);
+    background-color: rgb(255, 0, 0);
  }
+ 
   button {
     border: 0;
     background: rgba(42,50,113, .28);
