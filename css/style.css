@@ -62,7 +62,7 @@ html {
     font-weight: 800;
   }
  .BC{
-    background-color: rgb(35, 14, 233);
+    background-color: rgb(25, 0, 255);
  }
   button {
     border: 0;
@@ -71,6 +71,7 @@ html {
     cursor: pointer;
     font: inherit;
     float: left;
+    text-align: center;
     margin: 10px;
     width: 70px;
     height: 70px;
