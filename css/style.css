@@ -129,8 +129,7 @@ html {
 .container_text{
   width:90%; /*no ocupe el total de la pantalla*/
   max-width:1200px;/*ancho maximo de 1200px*/
-  margin: auto;
-  padding:var(--padding-container);
+  margin:0 auto 0 0;
 }
 
 .footer{
