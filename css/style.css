@@ -26,10 +26,7 @@ html {
     overflow: hidden;
  }
 
- .textt{
-  font-size: 20px;
- }
-  
+
 .price{
   color: #9c989c;
   justify-content: center;
@@ -54,16 +51,18 @@ html {
     margin: 0 auto;
     width: 12em;
   }
-  
+
+ 
   #display {
     color: #fcfcfc;
     background-color: #100a1c;
     float: left;
     text-align: right;
     overflow: hidden;
-    width:21em;
-    height:4em;
-    font-weight: 800;
+    width: 290px;
+    height:70px;
+    font-weight: 600;
+    font-size: 35px;
   }
  .BC{
     background-color: rgb(255, 0, 0);
@@ -163,4 +162,8 @@ html {
     .footer_img{
       width: 30px;
     }
-
+@media (max-width:700px){
+    .textt{
+      font-size: 20px;
+     }
+    }
