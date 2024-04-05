@@ -62,15 +62,15 @@ html {
     font-weight: 800;
   }
  .BC{
-    background-color: red;
+    background-color: rgb(35, 14, 233);
  }
   button {
     border: 0;
     background: rgba(42,50,113, .28);
     color: #6cacc5;
     cursor: pointer;
-    float: left;
     font: inherit;
+    float: left;
     margin: 10px;
     width: 70px;
     height: 70px;
