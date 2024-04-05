@@ -63,8 +63,13 @@ html {
   }
  .BC{
     background-color: rgb(255, 0, 0);
+    text-align: center;
  }
- 
+
+ .operator{
+  text-align: center;
+ }
+
   button {
     border: 0;
     background: rgba(42,50,113, .28);
@@ -72,7 +77,6 @@ html {
     cursor: pointer;
     font: inherit;
     float: left;
-    text-align: center;
     margin: 10px;
     width: 70px;
     height: 70px;
