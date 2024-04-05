@@ -69,7 +69,7 @@ html {
     background: rgba(42,50,113, .28);
     color: #6cacc5;
     cursor: pointer;
-    float: left;
+    /*float: left;*/
     font: inherit;
     margin: 0.25em;
     width: 2em;
@@ -157,16 +157,4 @@ html {
     .footer_img{
       width: 30px;
     }
-  
- /* @media (min-width: 420px) {
-    .calculator {
-      width: 12em;
-    }
-    .viewer {
-      width: 8.5em;
-    }
-    button {
-      margin: 0.3em;
-    }
 
-  }*/
