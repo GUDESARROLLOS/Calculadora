@@ -69,7 +69,7 @@ html {
     background: rgba(42,50,113, .28);
     color: #6cacc5;
     cursor: pointer;
-    /*float: left;*/
+    float: left;
     font: inherit;
     margin: 0.25em;
     width: 2em;
@@ -101,7 +101,6 @@ html {
       }
     }
   }
-  /* Same as above, modified for result */
   .equals:focus::after {
     content: attr(data-result);
     margin-left: -300px;
