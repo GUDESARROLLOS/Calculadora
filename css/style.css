@@ -26,7 +26,6 @@ html {
     overflow: hidden;
  }
 
-
 .price{
   color: #9c989c;
   justify-content: center;
@@ -51,7 +50,6 @@ html {
     margin: 0 auto;
     width: 12em;
   }
-
  
   #display {
     color: #fcfcfc;
@@ -127,6 +125,12 @@ html {
     margin:0 auto;/*centramos vertialmente*/
     overflow: hidden;/*escoder lo que sobresalga*/
     padding:var(--padding-container);
+}
+.container_text{
+  width:90%; /*no ocupe el total de la pantalla*/
+  max-width:1200px;/*ancho maximo de 1200px*/
+  margin: auto;
+  padding:var(--padding-container);
 }
 
 .footer{
