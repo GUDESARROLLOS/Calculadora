@@ -25,6 +25,10 @@ html {
     font-size: 25px;
     overflow: hidden;
  }
+
+ .textt{
+  font-size: 20px;
+ }
   
 .price{
   color: #9c989c;
