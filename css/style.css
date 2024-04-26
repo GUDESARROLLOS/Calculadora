@@ -9,7 +9,7 @@ html {
   
   body {
     color: #6cacc5;
-    font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+    font: 300 18px/1.6 "poppins";
     margin: 0;
     padding: 5em 0 2em;
     text-align: center;
@@ -20,7 +20,7 @@ html {
   }
   .a{
     color: #6cacc5;
-    font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+    font: 300 18px/1.6 "poppins";
     margin: 0;
     padding: 5em 0 2em;
     text-align: center;
