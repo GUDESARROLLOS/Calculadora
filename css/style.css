@@ -15,6 +15,9 @@ html {
     text-align: center;
   }
   
+  .aste{
+    color:#6cacc5
+  }
   .a{
     color: #6cacc5;
     font: 300 18px/1.6 "Source Sans Pro",sans-serif;
@@ -24,7 +27,7 @@ html {
   }
 
    img{
-    margin-top: -4em;
+    margin-top: auto;
   }
 
   .text{
@@ -33,6 +36,8 @@ html {
     font-size: 25px;
     overflow: hidden;
  }
+ 
+
 
 .price{
   color: #dbdbdb;
@@ -47,11 +52,11 @@ html {
 .date{
   display: flex;
   justify-content: center;
-  gap:1em;
+  gap:2em;
+  margin-top: 30px;
   margin-bottom: 2em;
   margin-left: auto;
   font-size:20px;
-  
 }
 
   .calculator {
@@ -130,6 +135,7 @@ html {
   color: #fcfcfc;
   font-style: italic;
 }
+
 
   .container{
     width:90%; /*no ocupe el total de la pantalla*/
