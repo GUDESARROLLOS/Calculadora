@@ -180,7 +180,7 @@ html {
 
 @media (max-width:480px){
     .textt{
-      font-size: 20px;
+      font-size: 25px;
      }
      .container_text{
       width:90%; /*no ocupe el total de la pantalla*/
