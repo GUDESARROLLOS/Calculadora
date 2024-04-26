@@ -1,20 +1,24 @@
 
 const display= document.querySelector("#display");
 const buttons= document.querySelectorAll("button");
+var bc = 10400;
+
+
+
 buttons.forEach((btn) => {
     btn.addEventListener("click", () =>{
-        if(btn.id === "="){
-        document.getElementById("total").innerHTML = display.value = eval(display.value);
-        } else if (btn.id === "ac"){
+        if(btn.id === "="){ 
+     document.getElementById("total").innerHTML = display.value = Math.round(eval(display.value * bc));
+           
+    } else if (btn.id === "ac"){
             document.getElementById("total").innerHTML =  display.value = "";
         } else if (btn.id == "de"){
             display.value = display.value.slice(0, -1);
         } else { 
-            display.value += btn.id;
-        }}) 
-        
+            display.value += btn.id
+        } 
+    })   
 })
-
 
     
 function startTime(){

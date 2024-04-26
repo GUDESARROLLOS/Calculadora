@@ -11,20 +11,8 @@
     <div class="text">
      <h1>CALCULÁ TU CUOTA</h1>
     </div>
-    <div class="price" >
+    <div class="price">
     <label >El valor de referencia de la bolsa de cemento es de $10.400</label>
-    </div>
-    <div class="date">
-        <div id="reloj"></div>
-         <div>
-            <script>
-            //<![CDATA[
-            var  today = new Date();
-            var m = today.getMonth()+1;
-            var mes = (m < 10) ? '0' + m : m;
-           document.write(today.getDate(),'/' +mes,'/'+ 24);
-            //]]> 
-            </script></div>   
     </div>
         <section class="calculator">
         <div id="calculator container">
@@ -33,12 +21,12 @@
         <div class="container">
         <button id="ac" class="operator"><p class="container_text">AC</p></button>
         <button id="de" class="operator"><p class="container_text">←</p></button>
-        <button id="." class="operator">.</button>
+        <button id="." class="operator">,</button>
         <br/>
         <button id="1">1</button>
         <button id="2">2</button>
         <button id="3">3</button>
-        <br/>
+        <br/> 
         <button id="4">4</button>
         <button id="5">5</button>
         <button id="6">6</button>
@@ -46,16 +34,28 @@
         <button id="7">7</button>
         <button id="8">8</button>
         <button id="9">9</button>
-        <br/>
+        <br/> 
         <button id="0">0</button>
-        <button id="*10400" class="BC"><p class="container_text">BC</p></button>
-        <button id="=">=</button>
+        <button id="00">00</button>
+        <button id="=" class="BC"><p class="container_text">BC</p></button>
     </div>
     </div>
     </section>
     <section>
         <div class="container">
             <p class="total">El valor de tu cuota este mes equivale a $ <label class="total"><span id="total"></span></label></p>
+        </div>
+        <div style="font: 300 18px/1.6 Source Sans Pro,sans-serif" class="date">
+            <div id="reloj"></div>
+             <div>
+                <script>
+                //<![CDATA[
+                var  today = new Date();
+                var m = today.getMonth()+1;
+                var mes = (m < 10) ? '0' + m : m;
+               document.write(today.getDate(),'/' +mes,'/'+ 24);
+                //]]> 
+                </script></div>   
         </div>
         <br><br>
         <div class="container">
@@ -70,7 +70,10 @@
         <a href="https://www.instagram.com/grupourbanodesarrollos/" class="footer_icon"><img src="./assets/insta.svg" class="footer_img "></a>
         <a href="https://www.facebook.com/grupourbanodesarrollos/" class="footer_icon"><img src="./assets/facebook.svg" class="footer_img "></a>
         <a href="https://acortar.link/WhatsAppGrupoUrbano " class="footer_icon"><img src="./assets/whatsapp.svg" class="footer_img "></a>
+        <a href="#" class="footer_icon"><img src="./assets/video.svg" class="footer_img "></a>
+    
     </div>
+   
     <h3><a href="https://www.gudesarrollos.com.ar/" class="footer_copyright">www.gudesarrollos.com</a></h3>
     </section>
 </footer>
