@@ -11,8 +11,8 @@ var  resultado;
 buttons.forEach((btn) => {
     btn.addEventListener("click", () =>{
         if(btn.id === "="){ 
-             resultado = display.value = Math.round(eval(display.value * bc))
-             document.getElementById("total").innerHTML = resultado.toLocaleString("de-DE"); 
+             resultado = display.value = Math.round(eval(display.value * bc)).toLocaleString("de-DE")
+             document.getElementById("total").innerHTML = resultado; 
          document.getElementById("style").style.display = 'block';
     } else if (btn.id === "ac"){
             document.getElementById("total").innerHTML =  display.value = ""
