@@ -2,15 +2,17 @@
 const display= document.querySelector("#display");
 const buttons= document.querySelectorAll("button");
 var bc = 10400;
+var  resultado;
 
-
+ 
 
 
 
 buttons.forEach((btn) => {
     btn.addEventListener("click", () =>{
         if(btn.id === "="){ 
-         document.getElementById("total").innerHTML  = display.value = Math.round(eval(display.value * bc))
+             resultado = display.value = Math.round(eval(display.value * bc))
+             document.getElementById("total").innerHTML = resultado.toLocaleString("de-DE"); 
          document.getElementById("style").style.display = 'block';
     } else if (btn.id === "ac"){
             document.getElementById("total").innerHTML =  display.value = ""
@@ -22,8 +24,6 @@ buttons.forEach((btn) => {
         } 
     })   
 })
-
-
 
     
 
@@ -39,10 +39,5 @@ function startTime(){
     window.onload=function(){startTime();}
 
 
- function change(){
-    fristext = document.getElementsByClassName("textPrimery");
-    secondtext = document.getElementsByClassName("textSecondary");
+  
 
-    secondtext.get
-
- }
