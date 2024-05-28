@@ -187,14 +187,14 @@ html {
     .footer_img{
       width: 30px;
     }
-
+/*
 @media (max-width:480px){
     .textt{
       font-size: 25px;
      }
      .container_text{
       width:90%; /*no ocupe el total de la pantalla*/
-      max-width:1200px;/*ancho maximo de 1200px*/
-      margin:0 auto 0 -10px;
-    }
-    }
+    /*  max-width:1200px;/*ancho maximo de 1200px*/
+     /* margin:0 auto 0 -10px;/*
+    }/*
+    }/*
