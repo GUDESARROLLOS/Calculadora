@@ -190,6 +190,7 @@ html {
     }
 
 @media (max-width:480px){
+ 
     .textt{
       font-size: 25px;
      }
@@ -202,4 +203,5 @@ html {
     .calculator{
       margin: 0 0 0 35px;
     }
+
     }
