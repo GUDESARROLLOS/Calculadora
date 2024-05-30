@@ -76,13 +76,13 @@ html {
     float: left;
     text-align: right;
     overflow: hidden;
-    width: 250px;
+    width: 290px;
     height:70px;
     font-weight: 600;
     font-size: 35px;
   }
  .BC{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(217, 255, 0);
     color: white;
  }
 
@@ -203,5 +203,7 @@ html {
     .calculator{
       margin: 0 0 0 35px;
     }
-
+#display{
+  width: 260px;
+}
     }
