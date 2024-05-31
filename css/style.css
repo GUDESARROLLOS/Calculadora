@@ -82,7 +82,7 @@ html {
     font-size: 35px;
   }
  .BC{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(251, 255, 0);
     color: white;
  }
 
@@ -196,14 +196,19 @@ html {
      }
      .container_text{
       width:90%; 
-     max-width:1200px;
+      max-width:1200px;
       margin:0 0 0 -15px;
+    }
+
+    .container_te{
+      display: grid;
+      place-content: center;
     }
 
     .calculator{
       margin: 0 0 0 35px;
     }
-#display{
-  width: 260px;
+  #display{
+  width: 275px;
 }
     }
