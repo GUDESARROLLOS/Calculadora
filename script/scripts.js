@@ -1,7 +1,7 @@
 
 const display= document.querySelector("#display");
 const buttons= document.querySelectorAll("button");
-var bc = 10305;
+var bc = 10865;
 var  resultado;
 
  
