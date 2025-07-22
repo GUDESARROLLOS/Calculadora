@@ -1,83 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora trasladada</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2);
+      color: #01579b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #0277bd;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #0288d1;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #0277bd;
+    }
+
+    .code {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #004d73;
+    }
+  </style>
 </head>
 <body>
-    <img class="img" src="./assets/logo.png" alt="LOGO_AZUL">
-    <div class="text">
-     <h1>CALCULÁ TU CUOTA</h1>
-    </div>
-    <div class="price">
-    <label >El valor de referencia de la bolsa de cemento a la fecha es de $12.629<label class="aste">*</label></label>
-    </div>
-        <section class="calculator">
-        <div id="calculator container">
-        <input type="text" id="display" disabled>
-        <br/>
-        <div class="container">
-        <button id="ac" class="operator container_te"><p class="container_text">AC</p></button>
-        <button id="de" class="operator container_te"><p class="container_text">←</p></button>
-        <button id="." class="operator">,</button>
-        <br/>
-        <button id="1">1</button>
-        <button id="2">2</button>
-        <button id="3">3</button>
-        <br/> 
-        <button id="4">4</button>
-        <button id="5">5</button>
-        <button id="6">6</button>
-        <br/>
-        <button id="7">7</button>
-        <button id="8">8</button>
-        <button id="9">9</button>
-        <br/> 
-        <button id="0">0</button>
-        <button id="00" class="textt">00</button>
-        <button id="=" class="BC container_te"><p class="container_text">BC</p></button>
-    </div>
-    </div>
-    </section>
-    <section>
-        <div class="container">
-        <p class="total" id="style" style="color: rgb(255, 255, 255); display: none;">EL VALOR DE TU CUOTA ESTE MES EQUIVALE A $ <label class="total"><span id="total" style="color: rgb(255, 255, 255)"></span></label></p>
-        </div>
-        <div style="font: 300 18px/1.6 poppins" class="date">
-            <div id="reloj"></div>
-             <div>
-               <script>
-                //<![CDATA[
-                var  today = new Date();
-                var m = today.getMonth()+1;
-                var mes = (m < 10) ? '0' + m : m;
-               document.write(today.getDate(),'/' +mes,'/'+ 25);
-                //]]> 
-                </script></div>   
-        </div>
-        <br><br>
-        <div class="container">
-            <label>*Una vez realizado el pago envíe el comprobante para la acreditación del mismo.<br><br>    
-                   *La cotización indicada es únicamente válida para el día de la fecha y puede ser ajustada en virtud del <a class="a" href="https://materialesandersen.com.ar/corralon-de-materiales/obra-gruesa/articulos-bolsas/cemento-avellaneda-x-50-kg/">índice de referencia. </a><br><br>
-                   *La calculadora se encuentra activa en la fecha de pago, es decir del 1 al 10 de cada mes.
-                </label>
-        </div>
-    </section>
-<footer class="footer">
-    <section class="footer_copy container">
-    <div class="footer_social">
-        <a href="https://www.instagram.com/grupourbanodesarrollos/" class="footer_icon"><img src="./assets/insta.svg" class="footer_img "></a>
-        <a href="https://www.facebook.com/grupourbanodesarrollos/" class="footer_icon"><img src="./assets/facebook.svg" class="footer_img "></a>
-        <a href="https://acortar.link/WhatsAppGrupoUrbano " class="footer_icon"><img src="./assets/whatsapp.svg" class="footer_img "></a>
-        <a href="https://youtu.be/8C3eqEqmw18" class="footer_icon"><img src="./assets/video.svg" class="footer_img "></a>
-    
-    </div>
-   
-    <h3><a href="https://www.gudesarrollos.com.ar/" class="footer_copyright">www.gudesarrollos.com</a></h3>
-    </section>
-</footer>
-    <script src="./script/scripts.js"></script>
+  <div class="container">
+    <img src="./img/logo.png" alt="Grupo Urbano Desarrollos SA" />
+    <h1>¡Esta calculadora ya no está disponible!</h1>
+    <p>La calculadora ya no se encuentra en esta página.</p>
+    <p>Podés acceder a la nueva versión desde el siguiente enlace:</p>
+    <a class="button" href="https://gudesarrollos.com.ar/calculadora" target="_blank">Ir a la nueva calculadora</a>
+    <p class="code">Código de acceso: <strong>ABC1234</strong></p>
+  </div>
 </body>
 </html>
