@@ -23,7 +23,7 @@
       background: white;
       border-radius: 16px;
       padding: 30px;
-      max-width: 500px;
+      max-width: 650px; /* aumentamos el ancho */
       width: 100%;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
@@ -36,9 +36,10 @@
     }
 
     h1 {
-      font-size: 24px;
+      font-size: 22px; /* levemente más chico */
       margin-bottom: 15px;
       color: #0277bd;
+      white-space: nowrap; /* evita el salto de línea */
     }
 
     p {
@@ -66,6 +67,12 @@
       font-size: 18px;
       font-weight: bold;
       color: #004d73;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        white-space: normal; /* para evitar desbordes en pantallas chicas */
+      }
     }
   </style>
 </head>
